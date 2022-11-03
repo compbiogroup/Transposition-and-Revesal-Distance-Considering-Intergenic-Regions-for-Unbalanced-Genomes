@@ -1,4 +1,4 @@
-The folder code/Instances has a script to generate a set of random instances. Furthermore, it has the datasets used in the experiments reported.
+The folder code/Instances has a script to generate a set of random instances. Furthermore, it has datasets generated using this script.
 
 The algorithm for (unweighted) Reversals and Indels considering intergenic regions is described in the paper "Reversal and Indel Distance with Intergenic Region Information".
 
