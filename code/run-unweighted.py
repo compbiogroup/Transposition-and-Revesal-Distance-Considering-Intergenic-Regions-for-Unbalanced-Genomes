@@ -6,7 +6,7 @@ qtd = 1000
 
 os.system("mkdir -p output-unweighted")
 
-for n in range(50, 51, 50):
+for n in range(50, 501, 50):
 	for op in operations:
 		for model in ["T"]:
 			fileinput = "Instances/input/%s_%s_%s.in" % (model.lower(), n, op)
