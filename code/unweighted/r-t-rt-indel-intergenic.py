@@ -1246,7 +1246,7 @@ class Intergenic_Rev :
             max_approx = 4.0
             lowerb = float( graph.n - num_balanced )/2.0
         while True :
-            if DEBUG:
+            if DEBUG :
                 print(graph.get_cycles())
                 print(graph.to_string())
                 graph.calculate_cycles()
@@ -1256,7 +1256,7 @@ class Intergenic_Rev :
                 #_, vertices = graph.get_cycles(want_vertices = True)
                 #num_balanced = 0
                 #for vertice in vertices :
-                #    print("black = %d gray = %d" % (vertice[0].blacks, vertice[0].grays))
+                #    print "black = %d gray = %d" % (vertice[0].blacks, vertice[0].grays)
                 #    if vertice[0].grays == vertice[0].blacks :
                 #        num_balanced = num_balanced + 1
 
@@ -2228,9 +2228,6 @@ class Intergenic_Rev :
                                 [[transp_weights[0][0]+transp_weights[1][1]], [transp_weights[0][1]+transp_weights[2][0]], [transp_weights[1][0]+transp_weights[2][1]]]
                             )]#transp_weights[0][0], transp_weights[1][0], transp_weights[2][0])]
                         else :
-                            #print("Não deveria ter chego aqui...")
-                            #sys.exit()
-                            ## print("O SEGUNDO")
                             return [
                                (3, transp[0], transp[1], transp[2],
                                 #transp_weights[0][0], transp_weights[1][0], transp_weights[2][0]),
@@ -2348,15 +2345,13 @@ class Intergenic_Rev :
                             )] #transp_weights[0][0], transp_weights[1][0],transp_weights[2][0])
 
                         else :
-                            #print("Não deveria ter chego aqui...")
-                            #sys.exit()
                             return [
                                (3, transp[0], transp[1], transp[2],
                                 #transp_weights[0][0], transp_weights[1][0], transp_weights[2][0]),
                                 [[transp_weights[0][0]+transp_weights[1][1]], [transp_weights[0][1]+transp_weights[2][0]], [transp_weights[1][0]+transp_weights[2][1]]]),
                                 #(self.__search_trivial_unbalanced_transposition, transp[0], transp[1], transp[2])]
                                 (self.__make_sure_the_three_cycles_are_balanced, graph, transp[0], transp[1], transp[2])]
-                            print("ERROR: Avisar o Ulisses Imediatamente " +  graph.to_string())
+                            print("ERROR: " +  graph.to_string())
 
 
 
@@ -2646,8 +2641,6 @@ class Intergenic_Rev :
     
             
     ## At this point, we know that no oriented balanced cycle exists.
-    ## 2022: talvez remover
-    ## 2022: não modifiquei
     def search_nontrivial_unbalanced_transposition(self, graph) :
         _, vertices = graph.get_cycles(want_vertices = True)
         for cycle in vertices :
@@ -2831,8 +2824,6 @@ class Intergenic_Rev :
     ## At this point, we know that no blackheaviest cycle is bigger
     ## than 1. Therefore we have little ammunition, our last resource
     ## is to send the extra weight somewhere.
-    ## 2022 talvez remover
-    ## 2022: nao alterei
     def search_trivial_unbalanced_transposition(self, graph) :
         _, vertices = graph.get_cycles(want_vertices = True)
         for cycle in vertices :
@@ -2866,8 +2857,6 @@ class Intergenic_Rev :
 
 
 
-    # 2022 talvez remover
-    # 2022 nao alterei
     def __search_two_trivial_unbalanced_transposition(self, node0, node1, node2) :  
         a,b,c = node0, node1, node2
 
@@ -2916,8 +2905,6 @@ class Intergenic_Rev :
                 return [[a, b, c, wa, wb, wc],[b, a, c, wa2, wb2, wc2]]
 
 
-        ### Se nao, verifca se node2 eh do mesmo ciclo que node1 ou eh balanceado
-        ### entao apenas joga de node0 para node1 deixando node2 intacto
         elif (node2.cycle == node1.cycle) or (node2.grays == node2.blacks):
             if node2 == a:
                 if node0 == b: #node1 == c
@@ -2976,9 +2963,6 @@ class Intergenic_Rev :
                     wc2 = 0
                     return [[a, b, c, wa, wb, wc],[b, a, c, wa2, wb2, wc2]]
 
-        ### Se node2 nao eh negativo nem balanceado, entao ele eh positivo.
-        ### Como node2 nao esta no mesmo ciclo que node1, precisamos balancear
-        ### node0 e node1, jogar o resto em node2
         else:
             if node2.cycle != node1.cycle:
                 if node0 == a:
@@ -3019,8 +3003,6 @@ class Intergenic_Rev :
     ## is to send the extra weight somewhere. The trick here is that
     ## we can find either two negative, or two positives or one of each
     ## and create two new balanced cycles
-    ## 2022: talvez remover
-    ## 2022: nao alterei
     def search_two_trivial_unbalanced_transposition(self, graph) :
         _, vertices = graph.get_cycles(want_vertices = True)
         for cycle in vertices :
@@ -3307,17 +3289,24 @@ class Intergenic_Rev :
                         if to_remove :
                             to_remove -= indel_sequence_1[-1]
                         ops.append((0, cycle[2], indel_position_1, [[0 for _ in range(0,cycle[0].lp)], indel_sequence_1]))
-                        # at this point if to_remove is not 0 then we have a serious problem...
-                        if to_remove :
-                            print("Error in Lemma 11... the indels kept the cycle unbalanced")
-                            sys.exit(0)
+
+                    if to_remove != 0 and len(cycle[0].wp) == 1 and cycle[0].wp[0] >= to_remove :
+                        ops.append((0, cycle[0], 0, [[], [to_remove,]]))
+                        to_remove = 0
+                    if to_remove != 0 and len(cycle[2].wp) == 1 and cycle[2].wp[0] >= to_remove :
+                        ops.append((0, cycle[2], 0, [[], [to_remove,]]))
+                        to_remove = 0
+
+                    # at this point if to_remove is not 0 then we have a serious problem...
+                    if to_remove != 0 :
+                        print("Error in Lemma 11... the indels kept the cycle unbalanced")
+                        sys.exit(0)
                     return ops
             else : #we also have gray labeled edges...
                 # at this time I will apply only an insertion. in the next
                 # iteration the above if will clean the black edges using no
                 # more than two operations, since this insertion below
                 # guarantees that the cycle will be non-positive
-                # 2022 PS : I AM ASSUMING THAT THIS CYCLE IS NOT DIVERGENT!!!!!
                 pi_inserted = [cycle[0].lc_iota, cycle[2].lc_iota]
                 if not pi_inserted[0] or not pi_inserted[1] :
                     to_add = max(0, cycle[0].wc[-1] + cycle[2].wc[0] - cycle[0].wps - cycle[2].wps)
