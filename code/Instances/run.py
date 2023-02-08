@@ -11,3 +11,8 @@ for n in range(50, 501, 50):
 			command = "python3 generate_instance.py %s %s %s %s > %s" % (qtd, n, int(n*op), model, file)
 			print(command)
 			os.system(command)
+		for model in ["srt"]:
+			file = "input/%s_%s_%s.in" % (model, n, op)
+			command = "python3 generate_instance.py %s %s %s %s > %s" % (qtd, n, int(n*op), model, file)
+			print(command)
+			os.system(command)

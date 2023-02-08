@@ -14,7 +14,17 @@ def previous(pi, index):
 instances = int(sys.argv[1])
 size = int(sys.argv[2])
 number_op = int(sys.argv[3])
-operations = list(sys.argv[4])
+operations = sys.argv[4]
+signed = 0
+
+if sys.argv[4] == "srt":
+    operations = list("rt")
+    signed = 1
+if operations == "sr":
+    operations = list("r")
+    signed = 1
+
+operations = list(operations)
 
 seed = 1501
 
@@ -44,10 +54,16 @@ for _ in range(instances):
 
             segment = pi[i:j+1]
             segment.reverse()
+            if signed == 1:
+                #change signs in case of signed strings
+                for index in range(len(segment)):
+                    segment[index] = -segment[index]
+
             segment_breve = breve_pi[i+1:j+1]#segment from i+1 to j
             segment_breve.reverse()
 
             pi = pi[0:i] + segment + pi[j+1:len(pi)+1]
+            print("pi",pi)
 
             breve_pi[i] = x + y
             breve_pi[j+1] = x_prime + y_prime
@@ -87,9 +103,10 @@ for _ in range(instances):
             breve_pi[index] = x + pre
             breve_pi = breve_pi[0:index+1] + [x_prime + post] + breve_pi[index+1:len(breve_pi)+1]
 
+    print(pi)
     #check instance
     if(len(pi)+1 != len(breve_pi)):
-        print("Size error")
+        print("Size error", len(pi), len(breve_pi))
         exit()
     
     abs_pi = [abs(x) for x in pi]
@@ -104,7 +121,7 @@ for _ in range(instances):
             print(pi)
             exit()
 
-    str_pi = ",".join([str(abs(x)) for x in pi])
+    str_pi = ",".join([str(x) for x in pi])
     str_breve_pi = ",".join([str(x) for x in breve_pi])
     str_breve_iota = ",".join([str(x) for x in breve_iota])
 
