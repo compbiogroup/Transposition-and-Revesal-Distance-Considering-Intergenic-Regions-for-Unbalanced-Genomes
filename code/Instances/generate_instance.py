@@ -63,7 +63,7 @@ for _ in range(instances):
             segment_breve.reverse()
 
             pi = pi[0:i] + segment + pi[j+1:len(pi)+1]
-            print("pi",pi)
+            # print("pi",pi)
 
             breve_pi[i] = x + y
             breve_pi[j+1] = x_prime + y_prime
