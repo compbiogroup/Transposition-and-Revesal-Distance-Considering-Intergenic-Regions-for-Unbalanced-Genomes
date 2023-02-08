@@ -103,7 +103,7 @@ for _ in range(instances):
             breve_pi[index] = x + pre
             breve_pi = breve_pi[0:index+1] + [x_prime + post] + breve_pi[index+1:len(breve_pi)+1]
 
-    print(pi)
+    # print(pi)
     #check instance
     if(len(pi)+1 != len(breve_pi)):
         print("Size error", len(pi), len(breve_pi))
