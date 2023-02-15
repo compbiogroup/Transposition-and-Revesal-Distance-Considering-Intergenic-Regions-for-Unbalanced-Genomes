@@ -1,0 +1,324 @@
+exact
+output-unweighted/srt_100_0.1.out	0
+output-unweighted/srt_100_0.3.out	16
+output-unweighted/srt_100_0.5.out	15
+output-unweighted/srt_100_1.out	0
+output-unweighted/srt_150_0.1.out	0
+output-unweighted/srt_150_0.3.out	39
+output-unweighted/srt_150_0.5.out	1
+output-unweighted/srt_150_1.out	0
+output-unweighted/srt_200_0.1.out	21
+output-unweighted/srt_200_0.3.out	21
+output-unweighted/srt_200_0.5.out	1
+output-unweighted/srt_200_1.out	0
+output-unweighted/srt_250_0.1.out	16
+output-unweighted/srt_250_0.3.out	1
+output-unweighted/srt_250_0.5.out	1
+output-unweighted/srt_250_1.out	0
+output-unweighted/srt_300_0.1.out	3
+output-unweighted/srt_300_0.3.out	23
+output-unweighted/srt_300_0.5.out	0
+output-unweighted/srt_300_1.out	0
+output-unweighted/srt_350_0.1.out	2
+output-unweighted/srt_350_0.3.out	25
+output-unweighted/srt_350_0.5.out	0
+output-unweighted/srt_350_1.out	0
+output-unweighted/srt_400_0.1.out	18
+output-unweighted/srt_400_0.3.out	3
+output-unweighted/srt_400_0.5.out	0
+output-unweighted/srt_400_1.out	0
+output-unweighted/srt_450_0.1.out	12
+output-unweighted/srt_450_0.3.out	17
+output-unweighted/srt_450_0.5.out	0
+output-unweighted/srt_450_1.out	0
+output-unweighted/srt_500_0.1.out	7
+output-unweighted/srt_500_0.3.out	2
+output-unweighted/srt_500_0.5.out	0
+output-unweighted/srt_500_1.out	0
+output-unweighted/srt_50_0.1.out	0
+output-unweighted/srt_50_0.3.out	0
+output-unweighted/srt_50_0.5.out	37
+output-unweighted/srt_50_1.out	1
+output-unweighted/t_100_0.1.out	0
+output-unweighted/t_100_0.3.out	0
+output-unweighted/t_100_0.5.out	27
+output-unweighted/t_100_1.out	0
+output-unweighted/t_150_0.1.out	1
+output-unweighted/t_150_0.3.out	18
+output-unweighted/t_150_0.5.out	8
+output-unweighted/t_150_1.out	0
+output-unweighted/t_200_0.1.out	0
+output-unweighted/t_200_0.3.out	0
+output-unweighted/t_200_0.5.out	22
+output-unweighted/t_200_1.out	0
+output-unweighted/t_250_0.1.out	0
+output-unweighted/t_250_0.3.out	9
+output-unweighted/t_250_0.5.out	9
+output-unweighted/t_250_1.out	0
+output-unweighted/t_300_0.1.out	0
+output-unweighted/t_300_0.3.out	25
+output-unweighted/t_300_0.5.out	9
+output-unweighted/t_300_1.out	0
+output-unweighted/t_350_0.1.out	0
+output-unweighted/t_350_0.3.out	6
+output-unweighted/t_350_0.5.out	3
+output-unweighted/t_350_1.out	0
+output-unweighted/t_400_0.1.out	0
+output-unweighted/t_400_0.3.out	4
+output-unweighted/t_400_0.5.out	8
+output-unweighted/t_400_1.out	0
+output-unweighted/t_450_0.1.out	0
+output-unweighted/t_450_0.3.out	11
+output-unweighted/t_450_0.5.out	3
+output-unweighted/t_450_1.out	0
+output-unweighted/t_500_0.1.out	0
+output-unweighted/t_500_0.3.out	2
+output-unweighted/t_500_0.5.out	2
+output-unweighted/t_500_1.out	0
+output-unweighted/t_50_0.1.out	0
+output-unweighted/t_50_0.3.out	1
+output-unweighted/t_50_0.5.out	42
+output-unweighted/t_50_1.out	0
+dist
+output-unweighted/srt_100_0.1.out	8.777	5	13
+output-unweighted/srt_100_0.3.out	29.71	19	40
+output-unweighted/srt_100_0.5.out	46.558	36	60
+output-unweighted/srt_100_1.out	80.941	65	100
+output-unweighted/srt_150_0.1.out	14.921	10	21
+output-unweighted/srt_150_0.3.out	44.96	33	61
+output-unweighted/srt_150_0.5.out	72.815	57	89
+output-unweighted/srt_150_1.out	122.826	104	147
+output-unweighted/srt_200_0.1.out	17.789	11	24
+output-unweighted/srt_200_0.3.out	60.182	47	74
+output-unweighted/srt_200_0.5.out	96.646	79	116
+output-unweighted/srt_200_1.out	163.172	142	184
+output-unweighted/srt_250_0.1.out	23.901	16	33
+output-unweighted/srt_250_0.3.out	75.151	61	97
+output-unweighted/srt_250_0.5.out	120.269	94	144
+output-unweighted/srt_250_1.out	205.236	182	230
+output-unweighted/srt_300_0.1.out	29.867	21	39
+output-unweighted/srt_300_0.3.out	90.361	69	117
+output-unweighted/srt_300_0.5.out	147.191	124	172
+output-unweighted/srt_300_1.out	247.391	220	279
+output-unweighted/srt_350_0.1.out	32.835	24	44
+output-unweighted/srt_350_0.3.out	105.631	86	126
+output-unweighted/srt_350_0.5.out	169.977	149	191
+output-unweighted/srt_350_1.out	288.043	261	315
+output-unweighted/srt_400_0.1.out	39.155	30	54
+output-unweighted/srt_400_0.3.out	120.508	99	144
+output-unweighted/srt_400_0.5.out	193.755	172	226
+output-unweighted/srt_400_1.out	330.326	300	364
+output-unweighted/srt_450_0.1.out	45.16	34	58
+output-unweighted/srt_450_0.3.out	135.711	113	159
+output-unweighted/srt_450_0.5.out	220.275	188	247
+output-unweighted/srt_450_1.out	373.489	341	409
+output-unweighted/srt_500_0.1.out	48.103	37	61
+output-unweighted/srt_500_0.3.out	150.286	128	174
+output-unweighted/srt_500_0.5.out	243.88	215	278
+output-unweighted/srt_500_1.out	413.041	378	447
+output-unweighted/srt_50_0.1.out	2.897	2	5
+output-unweighted/srt_50_0.3.out	14.667	8	21
+output-unweighted/srt_50_0.5.out	23.051	15	32
+output-unweighted/srt_50_1.out	39.073	27	51
+output-unweighted/t_100_0.1.out	9.627	7	13
+output-unweighted/t_100_0.3.out	33.873	26	40
+output-unweighted/t_100_0.5.out	50.483	39	61
+output-unweighted/t_100_1.out	76.744	67	89
+output-unweighted/t_150_0.1.out	16.2	13	21
+output-unweighted/t_150_0.3.out	51.264	43	60
+output-unweighted/t_150_0.5.out	78.327	66	90
+output-unweighted/t_150_1.out	116.007	102	129
+output-unweighted/t_200_0.1.out	19.383	16	25
+output-unweighted/t_200_0.3.out	68.591	57	80
+output-unweighted/t_200_0.5.out	104.664	91	120
+output-unweighted/t_200_1.out	154.571	141	169
+output-unweighted/t_250_0.1.out	26.101	21	34
+output-unweighted/t_250_0.3.out	86.105	75	100
+output-unweighted/t_250_0.5.out	130.446	114	146
+output-unweighted/t_250_1.out	194.283	175	215
+output-unweighted/t_300_0.1.out	32.689	27	40
+output-unweighted/t_300_0.3.out	103.8	91	117
+output-unweighted/t_300_0.5.out	158.974	142	177
+output-unweighted/t_300_1.out	233.597	217	254
+output-unweighted/t_350_0.1.out	35.805	30	43
+output-unweighted/t_350_0.3.out	121.363	109	138
+output-unweighted/t_350_0.5.out	185.085	166	206
+output-unweighted/t_350_1.out	272.367	253	295
+output-unweighted/t_400_0.1.out	42.68	36	51
+output-unweighted/t_400_0.3.out	138.787	123	154
+output-unweighted/t_400_0.5.out	211.156	190	233
+output-unweighted/t_400_1.out	312.022	292	335
+output-unweighted/t_450_0.1.out	49.385	42	59
+output-unweighted/t_450_0.3.out	156.8	140	170
+output-unweighted/t_450_0.5.out	239.413	217	263
+output-unweighted/t_450_1.out	351.636	328	379
+output-unweighted/t_500_0.1.out	52.658	45	63
+output-unweighted/t_500_0.3.out	173.888	155	192
+output-unweighted/t_500_0.5.out	265.603	245	288
+output-unweighted/t_500_1.out	390.404	367	417
+output-unweighted/t_50_0.1.out	3.123	2	5
+output-unweighted/t_50_0.3.out	16.861	11	22
+output-unweighted/t_50_0.5.out	25.157	20	33
+output-unweighted/t_50_1.out	37.637	29	48
+approx
+output-unweighted/srt_100_0.1.out	1.877472055	1.4	2.571429
+output-unweighted/srt_100_0.3.out	2.154096048	1.538462	2.909091
+output-unweighted/srt_100_0.5.out	2.314163392	1.948718	2.974359
+output-unweighted/srt_100_1.out	2.630308095	2.246154	3.071429
+output-unweighted/srt_150_0.1.out	1.951311479	1.444444	2.533333
+output-unweighted/srt_150_0.3.out	2.181571562	1.894737	2.628571
+output-unweighted/srt_150_0.5.out	2.351081453	2.028571	2.912281
+output-unweighted/srt_150_1.out	2.644748724	2.304348	2.967033
+output-unweighted/srt_200_0.1.out	1.965540687	1.454545	2.555556
+output-unweighted/srt_200_0.3.out	2.193529575	1.886792	2.526316
+output-unweighted/srt_200_0.5.out	2.358186699	2.051948	2.74359
+output-unweighted/srt_200_1.out	2.651253292	2.369231	2.97561
+output-unweighted/srt_250_0.1.out	1.994476287	1.478261	2.454545
+output-unweighted/srt_250_0.3.out	2.202923246	2	2.588235
+output-unweighted/srt_250_0.5.out	2.359858249	2.08	2.680412
+output-unweighted/srt_250_1.out	2.657218642	2.417178	3.013699
+output-unweighted/srt_300_0.1.out	2.015226586	1.586207	2.357143
+output-unweighted/srt_300_0.3.out	2.20108389	1.931034	2.571429
+output-unweighted/srt_300_0.5.out	2.372540068	2.149254	2.655738
+output-unweighted/srt_300_1.out	2.66594006	2.442211	2.893617
+output-unweighted/srt_350_0.1.out	2.01093615	1.677419	2.315789
+output-unweighted/srt_350_0.3.out	2.207945499	2	2.511111
+output-unweighted/srt_350_0.5.out	2.36959058	2.134228	2.59854
+output-unweighted/srt_350_1.out	2.662547855	2.488263	2.881517
+output-unweighted/srt_400_0.1.out	2.024958724	1.702128	2.35
+output-unweighted/srt_400_0.3.out	2.207716593	2	2.509804
+output-unweighted/srt_400_0.5.out	2.373530573	2.158537	2.625
+output-unweighted/srt_400_1.out	2.66802348	2.439394	2.922449
+output-unweighted/srt_450_0.1.out	2.032799301	1.767442	2.292683
+output-unweighted/srt_450_0.3.out	2.210867433	2.035398	2.45
+output-unweighted/srt_450_0.5.out	2.376072545	2.195652	2.622951
+output-unweighted/srt_450_1.out	2.673793252	2.482014	2.888087
+output-unweighted/srt_500_0.1.out	2.031962347	1.728814	2.333333
+output-unweighted/srt_500_0.3.out	2.20830359	2.045455	2.455882
+output-unweighted/srt_500_0.5.out	2.374668852	2.190955	2.601036
+output-unweighted/srt_500_1.out	2.66991135	2.501567	2.878893
+output-unweighted/srt_50_0.1.out	1.796666664	1.333333	3
+output-unweighted/srt_50_0.3.out	2.094481485	1.5	3.076923
+output-unweighted/srt_50_0.5.out	2.260842485	1.73913	3.1
+output-unweighted/srt_50_1.out	2.545412576	2	3.217391
+output-unweighted/t_100_0.1.out	1.651133383	1.4	2.363636
+output-unweighted/t_100_0.3.out	1.98499256	1.529412	2.375
+output-unweighted/t_100_0.5.out	2.158270721	1.795918	2.55
+output-unweighted/t_100_1.out	2.465926821	2.121212	2.821429
+output-unweighted/t_150_0.1.out	1.67571199	1.444444	2.235294
+output-unweighted/t_150_0.3.out	2.005025319	1.678571	2.32
+output-unweighted/t_150_0.5.out	2.18695845	1.868421	2.521739
+output-unweighted/t_150_1.out	2.486403318	2.231579	2.735632
+output-unweighted/t_200_0.1.out	1.665315743	1.454545	2.272727
+output-unweighted/t_200_0.3.out	2.017638123	1.746479	2.412698
+output-unweighted/t_200_0.5.out	2.201032031	1.979381	2.488889
+output-unweighted/t_200_1.out	2.492565215	2.246154	2.739496
+output-unweighted/t_250_0.1.out	1.685915114	1.448276	2.193548
+output-unweighted/t_250_0.3.out	2.025069382	1.767442	2.278481
+output-unweighted/t_250_0.5.out	2.202309807	2	2.392523
+output-unweighted/t_250_1.out	2.50150038	2.33121	2.718954
+output-unweighted/t_300_0.1.out	1.692325236	1.459459	2.114286
+output-unweighted/t_300_0.3.out	2.033274839	1.794393	2.301075
+output-unweighted/t_300_0.5.out	2.215528157	1.986301	2.384615
+output-unweighted/t_300_1.out	2.50203995	2.323529	2.693182
+output-unweighted/t_350_0.1.out	1.680914897	1.463415	2.04878
+output-unweighted/t_350_0.3.out	2.0320867	1.803279	2.283186
+output-unweighted/t_350_0.5.out	2.214680423	2.045198	2.429448
+output-unweighted/t_350_1.out	2.50236278	2.339286	2.721154
+output-unweighted/t_400_0.1.out	1.697414463	1.469388	2.081633
+output-unweighted/t_400_0.3.out	2.037755471	1.830986	2.285714
+output-unweighted/t_400_0.5.out	2.220096721	2.050505	2.390805
+output-unweighted/t_400_1.out	2.504366533	2.344828	2.655462
+output-unweighted/t_450_0.1.out	1.701853447	1.5	2.036364
+output-unweighted/t_450_0.3.out	2.046305557	1.842424	2.236111
+output-unweighted/t_450_0.5.out	2.218458173	2.035714	2.380952
+output-unweighted/t_450_1.out	2.508722531	2.356164	2.705455
+output-unweighted/t_500_0.1.out	1.69769629	1.483871	2.032258
+output-unweighted/t_500_0.3.out	2.041979326	1.850575	2.219512
+output-unweighted/t_500_0.5.out	2.221049957	2.086614	2.373333
+output-unweighted/t_500_1.out	2.505396905	2.359133	2.644068
+output-unweighted/t_50_0.1.out	1.586999989	1.333333	2.666667
+output-unweighted/t_50_0.3.out	1.96659382	1.411765	2.5
+output-unweighted/t_50_0.5.out	2.127300666	1.692308	2.583333
+output-unweighted/t_50_1.out	2.424641966	2	2.909091
+time
+output-unweighted/srt_100_0.1.out	0.032214689
+output-unweighted/srt_100_0.3.out	0.055176092
+output-unweighted/srt_100_0.5.out	0.086800273
+output-unweighted/srt_100_1.out	0.137823912
+output-unweighted/srt_150_0.1.out	0.051226895
+output-unweighted/srt_150_0.3.out	0.134941372
+output-unweighted/srt_150_0.5.out	0.175848052
+output-unweighted/srt_150_1.out	0.267990262
+output-unweighted/srt_200_0.1.out	0.079783242
+output-unweighted/srt_200_0.3.out	0.202320072
+output-unweighted/srt_200_0.5.out	0.285679675
+output-unweighted/srt_200_1.out	0.427925511
+output-unweighted/srt_250_0.1.out	0.136098807
+output-unweighted/srt_250_0.3.out	0.294647076
+output-unweighted/srt_250_0.5.out	0.430334539
+output-unweighted/srt_250_1.out	0.653680626
+output-unweighted/srt_300_0.1.out	0.176039043
+output-unweighted/srt_300_0.3.out	0.406050135
+output-unweighted/srt_300_0.5.out	0.632189849
+output-unweighted/srt_300_1.out	0.899087491
+output-unweighted/srt_350_0.1.out	0.21555235
+output-unweighted/srt_350_0.3.out	0.546980586
+output-unweighted/srt_350_0.5.out	0.785978376
+output-unweighted/srt_350_1.out	1.166661699
+output-unweighted/srt_400_0.1.out	0.282498115
+output-unweighted/srt_400_0.3.out	0.694179514
+output-unweighted/srt_400_0.5.out	0.98797895
+output-unweighted/srt_400_1.out	1.486049145
+output-unweighted/srt_450_0.1.out	0.345020886
+output-unweighted/srt_450_0.3.out	0.840308558
+output-unweighted/srt_450_0.5.out	1.214805193
+output-unweighted/srt_450_1.out	1.844628628
+output-unweighted/srt_500_0.1.out	0.401944185
+output-unweighted/srt_500_0.3.out	0.994968113
+output-unweighted/srt_500_0.5.out	1.465333516
+output-unweighted/srt_500_1.out	2.248116534
+output-unweighted/srt_50_0.1.out	0.009247383
+output-unweighted/srt_50_0.3.out	0.022218816
+output-unweighted/srt_50_0.5.out	0.030305451
+output-unweighted/srt_50_1.out	0.041884592
+output-unweighted/t_100_0.1.out	0.040843124
+output-unweighted/t_100_0.3.out	0.071462833
+output-unweighted/t_100_0.5.out	0.102653748
+output-unweighted/t_100_1.out	0.155891556
+output-unweighted/t_150_0.1.out	0.064488792
+output-unweighted/t_150_0.3.out	0.163983884
+output-unweighted/t_150_0.5.out	0.202794498
+output-unweighted/t_150_1.out	0.344182372
+output-unweighted/t_200_0.1.out	0.106100701
+output-unweighted/t_200_0.3.out	0.242814324
+output-unweighted/t_200_0.5.out	0.342747095
+output-unweighted/t_200_1.out	0.647171835
+output-unweighted/t_250_0.1.out	0.162490545
+output-unweighted/t_250_0.3.out	0.360281818
+output-unweighted/t_250_0.5.out	0.53333602
+output-unweighted/t_250_1.out	1.170538601
+output-unweighted/t_300_0.1.out	0.198250455
+output-unweighted/t_300_0.3.out	0.500047935
+output-unweighted/t_300_0.5.out	0.753733229
+output-unweighted/t_300_1.out	1.888656626
+output-unweighted/t_350_0.1.out	0.246550166
+output-unweighted/t_350_0.3.out	0.650962057
+output-unweighted/t_350_0.5.out	0.975380539
+output-unweighted/t_350_1.out	3.060460147
+output-unweighted/t_400_0.1.out	0.304944034
+output-unweighted/t_400_0.3.out	0.79991115
+output-unweighted/t_400_0.5.out	1.267603705
+output-unweighted/t_400_1.out	4.540654371
+output-unweighted/t_450_0.1.out	0.393509584
+output-unweighted/t_450_0.3.out	0.980522072
+output-unweighted/t_450_0.5.out	1.626016419
+output-unweighted/t_450_1.out	7.139735385
+output-unweighted/t_500_0.1.out	0.442441119
+output-unweighted/t_500_0.3.out	1.159267118
+output-unweighted/t_500_0.5.out	1.997046794
+output-unweighted/t_500_1.out	9.230852983
+output-unweighted/t_50_0.1.out	0.011567648
+output-unweighted/t_50_0.3.out	0.028494337
+output-unweighted/t_50_0.5.out	0.034401596
+output-unweighted/t_50_1.out	0.042316659
